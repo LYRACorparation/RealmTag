@@ -15,7 +15,9 @@
 
   /* ---------- Config-driven links and labels ---------- */
 
-  var downloadPath = config.downloadPath || "downloads/game.apk";
+  var downloadPath =
+    config.downloadPath ||
+    "https://github.com/LYRACorparation/RealmTag/releases/latest/download/game.apk";
   $$("[data-download-link]").forEach(function (link) {
     link.setAttribute("href", downloadPath);
     link.setAttribute("download", "");

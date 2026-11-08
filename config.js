@@ -18,7 +18,8 @@ window.REALMTAG_CONFIG = {
   contactEmail: "support@realm-tag.example",
 
   // Download details
-  downloadPath: "downloads/game.apk",
+  downloadPath:
+    "https://github.com/LYRACorparation/RealmTag/releases/latest/download/game.apk",
   version: "1.0.0",
   apkSize: "790 MB",
   updated: "November 8, 2026",
