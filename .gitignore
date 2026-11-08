@@ -1,0 +1,8 @@
+# The APK is too large for GitHub Pages (100 MB file limit, ~1 GB site limit).
+# Upload it as a GitHub Release asset and point config.js downloadPath at it.
+downloads/*.apk
+
+# OS junk
+Thumbs.db
+.DS_Store
+desktop.ini

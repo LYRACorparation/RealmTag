@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-label="RealmTag gorilla">
+  <defs>
+    <linearGradient id="rt-gorilla-line" x1="40" y1="28" x2="200" y2="220" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#b06bff"/>
+      <stop offset="1" stop-color="#e879f9"/>
+    </linearGradient>
+    <radialGradient id="rt-gorilla-fill" cx="50%" cy="38%" r="64%">
+      <stop stop-color="#241a36"/>
+      <stop offset="1" stop-color="#0b0714"/>
+    </radialGradient>
+  </defs>
+  <circle cx="61" cy="118" r="29" fill="url(#rt-gorilla-fill)" stroke="url(#rt-gorilla-line)" stroke-width="7"/>
+  <circle cx="179" cy="118" r="29" fill="url(#rt-gorilla-fill)" stroke="url(#rt-gorilla-line)" stroke-width="7"/>
+  <path d="M120 27c-50 0-79 37-79 83 0 52 35 83 79 83s79-31 79-83c0-46-29-83-79-83Z" fill="url(#rt-gorilla-fill)" stroke="url(#rt-gorilla-line)" stroke-width="8"/>
+  <path d="M76 92c12-12 28-17 44-17s32 5 44 17" fill="none" stroke="url(#rt-gorilla-line)" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="94" cy="116" r="6" fill="#b06bff"/>
+  <circle cx="146" cy="116" r="6" fill="#b06bff"/>
+  <path d="M120 128c-17 0-31 10-31 23 0 14 14 23 31 23s31-9 31-23c0-13-14-23-31-23Z" fill="#181027" stroke="url(#rt-gorilla-line)" stroke-width="6"/>
+  <path d="M105 153c10 6 20 6 30 0" fill="none" stroke="#b06bff" stroke-width="5" stroke-linecap="round"/>
+</svg>

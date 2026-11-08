@@ -1,0 +1,311 @@
+/* =========================================================
+   RealmTag — responsive
+   ========================================================= */
+
+@media (max-width: 1080px) {
+  .hero-grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .hero-copy {
+    max-width: 780px;
+  }
+
+  .hero-visual {
+    min-height: 480px;
+    max-width: 580px;
+    margin-inline: auto;
+    width: 100%;
+  }
+
+  .feature-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .download-panel {
+    grid-template-columns: 1fr;
+  }
+
+  .download-side {
+    border-top: 1px solid var(--line);
+    border-left: 0;
+  }
+
+  .footer-grid {
+    grid-template-columns: 1.3fr 0.7fr 0.8fr 0.9fr;
+  }
+}
+
+@media (max-width: 900px) {
+  .menu-toggle {
+    display: block;
+  }
+
+  .nav-links {
+    position: absolute;
+    top: calc(100% + 1px);
+    right: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 4px;
+    padding: 14px;
+    border: 1px solid var(--line);
+    border-top: 0;
+    border-radius: 0 0 16px 16px;
+    background: rgba(9, 6, 15, 0.98);
+    box-shadow: 0 28px 60px rgba(0, 0, 0, 0.45);
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(-8px);
+    transition: opacity 0.2s ease, transform 0.2s ease;
+    -webkit-backdrop-filter: blur(18px);
+    backdrop-filter: blur(18px);
+  }
+
+  .nav-links.is-open {
+    opacity: 1;
+    pointer-events: auto;
+    transform: none;
+  }
+
+  .nav-links > a {
+    padding: 12px 14px;
+  }
+
+  .nav-links > .nav-cta {
+    margin: 6px 0 0;
+    text-align: center;
+  }
+
+  .section-head {
+    display: block;
+  }
+
+  .section-head > p {
+    margin-top: 18px;
+  }
+
+  .about-grid,
+  .rating-layout,
+  .faq-layout,
+  .apply-layout,
+  .download-hero-grid,
+  .legal-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .about-copy {
+    max-width: 760px;
+  }
+
+  .mode-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .mode-card {
+    min-height: 0;
+  }
+
+  .mode-art {
+    height: 150px;
+  }
+
+  .cta-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .download-meta {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+  }
+
+  .legal-toc {
+    position: static;
+  }
+
+  .legal-toc nav {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0 20px;
+  }
+
+  .legal-content {
+    max-width: 100%;
+  }
+
+  .role-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 680px) {
+  .container {
+    width: min(calc(100% - 28px), var(--max));
+  }
+
+  .hero {
+    padding-top: 42px;
+  }
+
+  .hero h1 {
+    font-size: clamp(3rem, 14vw, 4.8rem);
+  }
+
+  .hero-meta {
+    gap: 16px 20px;
+  }
+
+  .hero-meta > div {
+    min-width: 110px;
+  }
+
+  .hero-actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .hero-actions .btn {
+    width: 100%;
+  }
+
+  .hero-visual {
+    min-height: 430px;
+  }
+
+  .orbit--1 {
+    width: 420px;
+    height: 420px;
+  }
+
+  .orbit--2 {
+    width: 330px;
+    height: 330px;
+  }
+
+  .arena-card {
+    width: min(100%, 390px);
+  }
+
+  .arena-scene {
+    height: 270px;
+  }
+
+  .float-chip--1 {
+    right: -4px;
+  }
+
+  .float-chip--2 {
+    left: -4px;
+  }
+
+  .form-row {
+    grid-template-columns: 1fr;
+  }
+
+  .download-meta {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .download-card .download-meta {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .legal-toc nav {
+    grid-template-columns: 1fr;
+  }
+
+  .step {
+    padding: 18px 18px 18px 58px;
+  }
+
+  .step::before {
+    top: 18px;
+    left: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  .feature-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-visual {
+    min-height: 390px;
+  }
+
+  .orbit {
+    display: none;
+  }
+
+  .arena-card {
+    transform: none;
+  }
+
+  .arena-scene {
+    height: 250px;
+  }
+
+  .arena-gorilla svg {
+    width: 158px;
+  }
+
+  .float-chip {
+    font-size: 0.62rem;
+    padding: 8px 11px;
+  }
+
+  .float-chip--1 {
+    top: 3%;
+  }
+
+  .float-chip--2 {
+    bottom: 15%;
+  }
+
+  .float-chip--3 {
+    bottom: 2%;
+  }
+
+  .download-meta {
+    grid-template-columns: 1fr;
+  }
+
+  .rating-labels span:first-child,
+  .rating-labels span:last-child {
+    display: none;
+  }
+
+  .rating-labels {
+    justify-content: center;
+  }
+
+  .stars {
+    gap: 5px;
+  }
+
+  .star-btn {
+    width: 39px;
+    height: 39px;
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .cta-card .btn,
+  .download-main .btn {
+    width: 100%;
+  }
+}
