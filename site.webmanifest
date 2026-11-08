@@ -1,0 +1,17 @@
+{
+  "name": "RealmTag",
+  "short_name": "RealmTag",
+  "description": "A free, fan-made VR tag game. Swing, climb, tag, repeat.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#08060d",
+  "theme_color": "#08060d",
+  "icons": [
+    {
+      "src": "assets/logo.jpg",
+      "sizes": "2560x1280",
+      "type": "image/jpeg",
+      "purpose": "any"
+    }
+  ]
+}

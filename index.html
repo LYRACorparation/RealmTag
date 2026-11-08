@@ -1,0 +1,531 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>RealmTag — Swing. Climb. Tag. Repeat.</title>
+  <meta name="description" content="RealmTag is a free, fan-made VR tag game. Swing through neon jungles, outrun your friends, and turn every lobby into recess. Download the Android APK.">
+  <meta name="theme-color" content="#08060d">
+  <meta property="og:title" content="RealmTag — Swing. Climb. Tag. Repeat.">
+  <meta property="og:description" content="A free, fan-made VR tag game built for people who never want to touch the ground.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="assets/logo.jpg" type="image/jpeg">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/css/home.css">
+  <link rel="stylesheet" href="assets/css/forms.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+  <script>document.documentElement.classList.add("js");</script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="index.html" aria-label="RealmTag home">
+        <img src="assets/logo.jpg" width="38" height="38" alt="">
+        <span>Realm<em>Tag</em></span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-label="Toggle menu" aria-controls="site-nav" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav-links" id="site-nav" aria-label="Main navigation">
+        <a href="index.html#features">Features</a>
+        <a href="index.html#modes">Modes</a>
+        <a href="download.html">Download</a>
+        <a href="creators.html">Creators</a>
+        <a href="staff.html">Staff</a>
+        <a class="nav-cta" href="index.html#ratings">Rate us</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="dot"></span> Fan-made VR tag • Android &amp; Quest</div>
+          <h1>Swing. Climb.<br><span class="grad">Tag.</span> Repeat.</h1>
+          <p>RealmTag is a free, fan-made VR tag game built for people who never want to touch the ground. Swing through neon jungles, outrun your friends, and turn every lobby into recess.</p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" data-download-link href="downloads/game.apk">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 21h14"/></svg>
+              Download APK
+            </a>
+            <a class="btn btn-ghost" href="#features">Explore the realm <span aria-hidden="true">↓</span></a>
+          </div>
+
+          <div class="hero-meta">
+            <div><strong>100% free</strong><span>No pay-to-win</span></div>
+            <div><strong>Quest ready</strong><span>Android 8+</span></div>
+            <div><strong>Community-run</strong><span>Built with players</span></div>
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-hidden="true">
+          <div class="hero-glow"></div>
+          <div class="orbit orbit--1"></div>
+          <div class="orbit orbit--2"></div>
+
+          <div class="arena-card">
+            <div class="arena-top">
+              <span class="live-dot"></span> CLASSIC TAG
+              <span class="arena-timer">02:14</span>
+            </div>
+            <div class="arena-scene">
+              <span class="leaf leaf--1"></span>
+              <span class="leaf leaf--2"></span>
+              <span class="leaf leaf--3"></span>
+              <span class="vine vine--1"></span>
+              <span class="vine vine--2"></span>
+              <div class="arena-gorilla">
+                <img src="assets/gorilla.svg" width="188" height="188" alt="">
+              </div>
+              <span class="tag-badge">TAG!</span>
+              <span class="player-pill player-pill--1">YOU</span>
+              <span class="player-pill player-pill--2">MOSS</span>
+              <span class="player-pill player-pill--3">KIKO</span>
+            </div>
+            <div class="arena-bottom">
+              <div><span>Lobby</span><strong>08 / 12</strong></div>
+              <div><span>Streak</span><strong>04</strong></div>
+              <div><span>Ping</span><strong>23ms</strong></div>
+            </div>
+          </div>
+
+          <span class="float-chip float-chip--1">+1 TAG</span>
+          <span class="float-chip float-chip--2">GG!</span>
+          <span class="float-chip float-chip--3">NEW TRAIL</span>
+        </div>
+      </div>
+    </section>
+
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <span>TAG</span><span>SWING</span><span>CLIMB</span><span>LAUGH</span><span>REPEAT</span>
+        <span>TAG</span><span>SWING</span><span>CLIMB</span><span>LAUGH</span><span>REPEAT</span>
+        <span>TAG</span><span>SWING</span><span>CLIMB</span><span>LAUGH</span><span>REPEAT</span>
+        <span>TAG</span><span>SWING</span><span>CLIMB</span><span>LAUGH</span><span>REPEAT</span>
+      </div>
+    </div>
+
+    <section class="section" id="about">
+      <div class="container about-grid">
+        <div class="about-copy" data-reveal>
+          <span class="kicker">Welcome to the realm</span>
+          <h2>A jungle gym for your inner ape.</h2>
+          <p>RealmTag takes the joy of playground tag and drops it into a lush, vertical VR playground. No guns. No grind. Just movement, mischief, and the friends you meet along the way.</p>
+          <p>Every map is built around flow: launch off a mushroom, catch a vine, land on a friend, and keep moving. The best players aren't the ones with the best gear — they're the ones who know the trees.</p>
+          <a class="text-link" href="download.html">Get the APK <span aria-hidden="true">↗</span></a>
+        </div>
+
+        <div class="pillars">
+          <article class="pillar" data-reveal data-reveal-delay="60">
+            <div class="pillar-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 20V9a2 2 0 0 1 4 0v5"/><path d="M11 12V6a2 2 0 0 1 4 0v7"/><path d="M15 13V8a2 2 0 0 1 4 0v7a6 6 0 0 1-6 6h-2a5 5 0 0 1-4-2l-3-4a2 2 0 0 1 3-2l2 2"/></svg>
+            </div>
+            <div>
+              <h3>Move like you mean it</h3>
+              <p>Arm-powered locomotion, climbing, and launches that make the whole map feel like a playground.</p>
+            </div>
+          </article>
+
+          <article class="pillar" data-reveal data-reveal-delay="120">
+            <div class="pillar-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="8" r="3"/><path d="M3 20a6 6 0 0 1 12 0"/><circle cx="17" cy="9" r="2.5"/><path d="M15 14a5 5 0 0 1 6 4"/></svg>
+            </div>
+            <div>
+              <h3>Every lobby is a story</h3>
+              <p>Party up with friends, learn the maps together, and turn a quick round into an hour of nonsense.</p>
+            </div>
+          </article>
+
+          <article class="pillar" data-reveal data-reveal-delay="180">
+            <div class="pillar-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m12 3 1.8 5.2L19 10l-5.2 1.8L12 17l-1.8-5.2L5 10l5.2-1.8L12 3Z"/><path d="m19 16 .7 2.3L22 19l-2.3.7L19 22l-.7-2.3L16 19l2.3-.7L19 16Z"/></svg>
+            </div>
+            <div>
+              <h3>Style is the endgame</h3>
+              <p>Unlock hats, hands, and trails by playing. Cosmetics are about personality, not pressure.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="features">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <div>
+            <span class="kicker">What makes it fun</span>
+            <h2>Built for movement,<br>made for mischief.</h2>
+          </div>
+          <p>No shops to grind, no meta to chase. Just a clean movement sandbox and a lobby full of friends.</p>
+        </div>
+
+        <div class="feature-grid">
+          <article class="feature-card" data-reveal>
+            <div class="feature-top">
+              <span class="feature-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 20V9a2 2 0 0 1 4 0v5"/><path d="M11 12V6a2 2 0 0 1 4 0v7"/><path d="M15 13V8a2 2 0 0 1 4 0v7a6 6 0 0 1-6 6h-2a5 5 0 0 1-4-2l-3-4a2 2 0 0 1 3-2l2 2"/></svg>
+              </span>
+              <span class="feature-num">01</span>
+            </div>
+            <h3>Gorilla locomotion</h3>
+            <p>Swing, climb, and launch yourself across the map with arm-powered movement. The floor is optional.</p>
+          </article>
+
+          <article class="feature-card" data-reveal data-reveal-delay="60">
+            <div class="feature-top">
+              <span class="feature-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12 12 4h6a2 2 0 0 1 2 2v6l-8 8-8-8Z"/><circle cx="15" cy="9" r="1.5"/></svg>
+              </span>
+              <span class="feature-num">02</span>
+            </div>
+            <h3>Classic tag, remixed</h3>
+            <p>Fast rounds, clear roles, and that one friend who always camps the tallest tree. You know the one.</p>
+          </article>
+
+          <article class="feature-card" data-reveal data-reveal-delay="120">
+            <div class="feature-top">
+              <span class="feature-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5a2 2 0 1 1 2 2c0 1-2 1.5-2 3"/><path d="m4 15 8-5 8 5-8 5-8-5Z"/><path d="M4 15v3l8 5 8-5v-3"/></svg>
+              </span>
+              <span class="feature-num">03</span>
+            </div>
+            <h3>Cosmetics with character</h3>
+            <p>Unlock hats, hands, and trails by playing. No pay-to-win, no stat boosts, just good-looking chaos.</p>
+          </article>
+
+          <article class="feature-card" data-reveal>
+            <div class="feature-top">
+              <span class="feature-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="10" width="16" height="11" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/><path d="M12 14v3"/></svg>
+              </span>
+              <span class="feature-num">04</span>
+            </div>
+            <h3>Private lobbies</h3>
+            <p>Spin up a room, invite your crew, and set the rules. Perfect for parties, events, and friendly rivalries.</p>
+          </article>
+
+          <article class="feature-card" data-reveal data-reveal-delay="60">
+            <div class="feature-top">
+              <span class="feature-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M8 3v4M16 3v4M3 10h18"/><path d="m9 15 2 2 4-4"/></svg>
+              </span>
+              <span class="feature-num">05</span>
+            </div>
+            <h3>Seasonal realms</h3>
+            <p>Limited-time maps, events, and challenges keep the jungle fresh. Drop in and see what changed.</p>
+          </article>
+
+          <article class="feature-card" data-reveal data-reveal-delay="120">
+            <div class="feature-top">
+              <span class="feature-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12a8 8 0 0 1-8 8H6l-3 2V12a8 8 0 0 1 8-8h2a8 8 0 0 1 8 8Z"/><path d="M8 12h.01M12 12h.01M16 12h.01"/></svg>
+              </span>
+              <span class="feature-num">06</span>
+            </div>
+            <h3>Built with the community</h3>
+            <p>Feedback shapes updates, events, and the next map. If you've got an idea, we want to hear it.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="modes">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <div>
+            <span class="kicker">Pick your chaos</span>
+            <h2>Three ways to<br>lose your friends.</h2>
+          </div>
+          <p>Every mode is built on the same movement sandbox. Learn one, and you're already dangerous in the others.</p>
+        </div>
+
+        <div class="mode-grid">
+          <article class="mode-card" data-reveal>
+            <div class="mode-art">
+              <span class="mode-glyph">01</span>
+              <svg class="mode-icon" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 32 32 10h13a9 9 0 0 1 9 9v13L32 54 10 32Z"/><circle cx="42" cy="22" r="4"/></svg>
+            </div>
+            <div class="mode-body">
+              <span class="mode-tag">Signature mode</span>
+              <h3>Classic Tag</h3>
+              <p>One tagger. Everyone else. Don't be the last one caught. Simple rules, absolute chaos.</p>
+              <div class="mode-meta"><span>2–12 players</span><span>5–10 min</span></div>
+            </div>
+          </article>
+
+          <article class="mode-card accent-amber" data-reveal data-reveal-delay="70">
+            <div class="mode-art">
+              <span class="mode-glyph">02</span>
+              <svg class="mode-icon" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="32" cy="32" r="9"/><path d="M32 6v13M32 45v13M6 32h13M45 32h13M13.5 13.5l9 9M41.5 41.5l9 9M50.5 13.5l-9 9M22.5 41.5l-9 9"/></svg>
+            </div>
+            <div class="mode-body">
+              <span class="mode-tag">Co-op survival</span>
+              <h3>Infection</h3>
+              <p>A single touch spreads the swarm. Survive together, or join the horde and hunt your friends.</p>
+              <div class="mode-meta"><span>4–16 players</span><span>6–12 min</span></div>
+            </div>
+          </article>
+
+          <article class="mode-card accent-mint" data-reveal data-reveal-delay="140">
+            <div class="mode-art">
+              <span class="mode-glyph">03</span>
+              <svg class="mode-icon" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m32 6 18 18-18 34-18-34L32 6Z"/><path d="M14 24h36M32 6v52"/></svg>
+            </div>
+            <div class="mode-body">
+              <span class="mode-tag">Team objective</span>
+              <h3>Relic Rush</h3>
+              <p>Grab the relics, bank them at the shrine, and keep the other team guessing. Movement meets mind games.</p>
+              <div class="mode-meta"><span>4–12 players</span><span>8–15 min</span></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="download">
+      <div class="container">
+        <div class="download-panel" data-reveal>
+          <div class="download-main">
+            <span class="kicker">Ready to play?</span>
+            <h2>Take the leap.</h2>
+            <p>Grab the latest APK, sideload it on your headset, and meet us in the trees. No account, no store, no nonsense.</p>
+
+            <div class="download-meta">
+              <div><span>Version</span><strong data-version>1.0.0</strong></div>
+              <div><span>Platform</span><strong>Quest 2 / 3 / Pro</strong></div>
+              <div><span>File size</span><strong data-apk-size>— MB</strong></div>
+              <div><span>Updated</span><strong data-updated>November 8, 2026</strong></div>
+            </div>
+
+            <div class="hero-actions">
+              <a class="btn btn-primary" data-download-link href="downloads/game.apk">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 21h14"/></svg>
+                Download RealmTag.apk
+              </a>
+              <a class="btn btn-ghost" href="download.html#install">Install guide</a>
+            </div>
+          </div>
+
+          <aside class="download-side">
+            <div class="download-badge"><span class="dot"></span> Free download</div>
+            <h3>Before you sideload</h3>
+            <ul class="check-list">
+              <li>Android-based VR headset</li>
+              <li>Unknown Sources enabled</li>
+              <li>Room for one more obsession</li>
+            </ul>
+            <p class="fine-print">RealmTag is an independent fan project and is not affiliated with Another Axiom or Gorilla Tag. Only install APKs from sources you trust.</p>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="ratings">
+      <div class="container rating-layout">
+        <div class="rating-copy" data-reveal>
+          <span class="kicker">Player feedback</span>
+          <h2>How's your time in the realm?</h2>
+          <p>Ratings go straight to our team through Discord. Tell us what slaps, what needs work, and what map we should build next.</p>
+
+          <div class="rating-facts">
+            <div class="rating-fact">
+              <span class="rating-fact-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m12 3 2.7 5.5 6.1.9-4.4 4.3 1 6.1L12 16.9 6.6 19.8l1-6.1-4.4-4.3 6.1-.9L12 3Z"/></svg>
+              </span>
+              <div><strong>No account needed</strong><span>Just pick a rating and leave a note.</span></div>
+            </div>
+            <div class="rating-fact">
+              <span class="rating-fact-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3 4 6v5c0 5 3.4 8.7 8 10 4.6-1.3 8-5 8-10V6l-8-3Z"/><path d="m9 12 2 2 4-4"/></svg>
+              </span>
+              <div><strong>Private by default</strong><span>We don't publish your gamertag or review.</span></div>
+            </div>
+            <div class="rating-fact">
+              <span class="rating-fact-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12a8 8 0 0 1-8 8H6l-3 2V12a8 8 0 0 1 8-8h2a8 8 0 0 1 8 8Z"/><path d="M8 12h.01M12 12h.01M16 12h.01"/></svg>
+              </span>
+              <div><strong>Read by humans</strong><span>Feedback goes to the team, not a black hole.</span></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="rating-card" data-reveal data-reveal-delay="80">
+          <form data-webhook-form data-form-type="rating" novalidate>
+            <div class="field">
+              <label for="rating-name">Gamertag <span class="optional">(optional)</span></label>
+              <input id="rating-name" name="name" type="text" maxlength="60" placeholder="Who's playing?" autocomplete="nickname">
+            </div>
+
+            <div class="field">
+              <span class="label" id="rating-label">Your rating <span class="required">*</span></span>
+              <div class="stars" data-rating role="radiogroup" aria-labelledby="rating-label" aria-required="true">
+                <button type="button" class="star-btn" role="radio" aria-checked="false" aria-label="1 star" data-value="1"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 2.5 2.9 5.9 6.5.9-4.7 4.6 1.1 6.5-5.8-3-5.8 3 1.1-6.5-4.7-4.6 6.5-.9L12 2.5Z"/></svg></button>
+                <button type="button" class="star-btn" role="radio" aria-checked="false" aria-label="2 stars" data-value="2"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 2.5 2.9 5.9 6.5.9-4.7 4.6 1.1 6.5-5.8-3-5.8 3 1.1-6.5-4.7-4.6 6.5-.9L12 2.5Z"/></svg></button>
+                <button type="button" class="star-btn" role="radio" aria-checked="false" aria-label="3 stars" data-value="3"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 2.5 2.9 5.9 6.5.9-4.7 4.6 1.1 6.5-5.8-3-5.8 3 1.1-6.5-4.7-4.6 6.5-.9L12 2.5Z"/></svg></button>
+                <button type="button" class="star-btn" role="radio" aria-checked="false" aria-label="4 stars" data-value="4"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 2.5 2.9 5.9 6.5.9-4.7 4.6 1.1 6.5-5.8-3-5.8 3 1.1-6.5-4.7-4.6 6.5-.9L12 2.5Z"/></svg></button>
+                <button type="button" class="star-btn" role="radio" aria-checked="false" aria-label="5 stars" data-value="5"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 2.5 2.9 5.9 6.5.9-4.7 4.6 1.1 6.5-5.8-3-5.8 3 1.1-6.5-4.7-4.6 6.5-.9L12 2.5Z"/></svg></button>
+              </div>
+              <input type="hidden" name="rating" id="rating-value" value="">
+              <div class="rating-labels"><span>Needs work</span><span data-rating-label>Tap a star to rate</span><span>Absolute cinema</span></div>
+            </div>
+
+            <div class="field">
+              <label for="rating-mode">Favorite mode</label>
+              <select id="rating-mode" name="mode">
+                <option value="">Pick one</option>
+                <option>Classic Tag</option>
+                <option>Infection</option>
+                <option>Relic Rush</option>
+                <option>All of them</option>
+                <option>Haven't played yet</option>
+              </select>
+            </div>
+
+            <div class="field">
+              <label for="rating-review">What stood out?</label>
+              <textarea id="rating-review" name="review" maxlength="600" placeholder="Best moment, biggest bug, or a map idea..."></textarea>
+              <span class="hint">Keep it kind and constructive. Max 600 characters.</span>
+            </div>
+
+            <label class="check">
+              <input type="checkbox" name="share" value="yes">
+              <span>You can share my feedback anonymously in the community.</span>
+            </label>
+
+            <div class="hp" aria-hidden="true">
+              <label for="rating-website">Website</label>
+              <input id="rating-website" name="website" type="text" tabindex="-1" autocomplete="off">
+            </div>
+
+            <button class="btn btn-primary btn-full" type="submit">Send rating</button>
+            <p class="form-note">Submissions are sent through a Discord webhook. See our <a href="privacy.html">Privacy Policy</a>.</p>
+            <div class="form-status" role="status" aria-live="polite"></div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="join-heading">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <div>
+            <span class="kicker">Get involved</span>
+            <h2 id="join-heading">The realm is<br>better with you.</h2>
+          </div>
+          <p>Whether you make clips, keep lobbies friendly, or just have strong opinions about map flow, there's a place for you.</p>
+        </div>
+
+        <div class="cta-grid">
+          <article class="cta-card cta-card--creator" data-reveal>
+            <span class="kicker">Content creators</span>
+            <h3>Make the realm louder.</h3>
+            <p>Early builds, creator lobbies, and a spotlight for the videos that make people laugh. If you create, we want to help.</p>
+            <a class="btn btn-ghost" href="creators.html">Apply to the creator program <span aria-hidden="true">↗</span></a>
+          </article>
+
+          <article class="cta-card cta-card--staff" data-reveal data-reveal-delay="80">
+            <span class="kicker">Join the team</span>
+            <h3>Help us run the jungle.</h3>
+            <p>We're looking for moderators, builders, testers, and people who care about good lobbies. No cape required.</p>
+            <a class="btn btn-ghost" href="staff.html">View staff roles <span aria-hidden="true">↗</span></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="faq">
+      <div class="container faq-layout">
+        <div data-reveal>
+          <span class="kicker">Good to know</span>
+          <h2>Questions,<br>answered.</h2>
+          <p class="faq-intro">Still curious? Join the community Discord or send us a message. We're real people, we promise.</p>
+        </div>
+
+        <div class="faq-list" data-reveal data-reveal-delay="80">
+          <details>
+            <summary>Is RealmTag free?</summary>
+            <p>Yes. RealmTag is free to download and play. There are no paid stat boosts or pay-to-win items. Cosmetics are unlocked by playing.</p>
+          </details>
+          <details>
+            <summary>Is this Gorilla Tag?</summary>
+            <p>No. RealmTag is an independent, fan-made VR game inspired by the social tag genre. It is not affiliated with, endorsed by, or sponsored by Another Axiom or Gorilla Tag.</p>
+          </details>
+          <details>
+            <summary>What do I need to play?</summary>
+            <p>An Android-based VR headset such as Meta Quest 2, Quest 3, or Quest Pro. You'll need to enable Unknown Sources and sideload the APK. A PC is helpful for installing, but not required once the game is on your headset.</p>
+          </details>
+          <details>
+            <summary>How do I install the APK?</summary>
+            <p>Download the APK, enable Unknown Sources on your headset, then install it with SideQuest, adb, or a file manager. Our <a href="download.html#install">install guide</a> walks through each step.</p>
+          </details>
+          <details>
+            <summary>Can I play with friends?</summary>
+            <p>Yes. Private lobbies let you spin up a room and invite your crew. Public lobbies are the quickest way to meet new players.</p>
+          </details>
+          <details>
+            <summary>How do I report a bug or a player?</summary>
+            <p>Use the community Discord or email us at <a data-contact-email href="mailto:support@realm-tag.example">support@realm-tag.example</a>. Include your headset model, what happened, and any steps that reproduce the issue.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a class="brand" href="index.html" aria-label="RealmTag home">
+            <img src="assets/logo.jpg" width="38" height="38" alt="">
+            <span>Realm<em>Tag</em></span>
+          </a>
+          <p>A free, fan-made VR tag game. Swing through the trees, find your friends, and try not to get tagged.</p>
+          <a class="footer-discord" data-discord-link href="#">Join the Discord <span aria-hidden="true">↗</span></a>
+        </div>
+
+        <div class="footer-col">
+          <h3>Game</h3>
+          <a href="index.html#features">Features</a>
+          <a href="index.html#modes">Modes</a>
+          <a href="download.html">Download APK</a>
+          <a href="index.html#faq">FAQ</a>
+        </div>
+
+        <div class="footer-col">
+          <h3>Community</h3>
+          <a href="creators.html">Creator program</a>
+          <a href="staff.html">Staff applications</a>
+          <a href="index.html#ratings">Rate RealmTag</a>
+          <a data-discord-link href="#">Discord</a>
+        </div>
+
+        <div class="footer-col">
+          <h3>Legal</h3>
+          <a href="terms.html">Terms of Service</a>
+          <a href="privacy.html">Privacy Policy</a>
+          <a data-contact-email href="mailto:support@realm-tag.example">Contact</a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span>© <span data-year>2026</span> RealmTag. All rights reserved.</span>
+        <span>Fan-made. Not affiliated with Another Axiom or Gorilla Tag.</span>
+      </div>
+      <p class="disclaimer">RealmTag is an independent fan project. Gorilla Tag and all related marks are trademarks of their respective owners. Use of a third-party name is for descriptive purposes only and does not imply endorsement.</p>
+    </div>
+  </footer>
+
+  <script src="config.js"></script>
+  <script src="assets/site.js"></script>
+</body>
+</html>
